@@ -1,0 +1,162 @@
+body,
+html,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+ul,
+li,
+dl,
+dt,
+dd {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+.clearfix:after {
+  /*伪元素是行内元素 正常浏览器清除浮动方法*/
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.clearfix {
+  *zoom: 1;
+  /*ie6清除浮动的方式 *号只有IE6-IE7执行，其他浏览器不执行*/
+}
+
+.toolbar {
+  padding-bottom: 0px;
+  background-color: #fff;
+  padding: 30px;
+  margin-top: 10px;
+}
+
+.el-pagination {
+  float: right;
+  margin-top: 20px
+}
+
+.td-box {
+  width: 80px
+}
+
+.td-box .el-input {
+  width: 65px
+}
+
+.el-select-box {
+  width: 370px
+}
+
+.el-cascader-box {
+  width: 270px
+}
+
+.input-box0 {
+  width: 80px;
+}
+
+.input-box1 {
+  width: 220px
+}
+
+.input-box2 {
+  width: 334px;
+  text-align: right;
+}
+
+.input-box3 {
+  width: 100px;
+}
+
+.input-box4 {
+  width: 300px;
+}
+
+.input-box5 {
+  width: 350px;
+}
+
+.input-box6 {
+  width: 270px;
+}
+
+.input-box7 {
+  width: 210px;
+}
+
+.input-box8 {
+  width: 150px;
+}
+
+.input-box9 {
+  width: 334px;
+}
+
+.input-box10 {
+  width: 600px;
+  text-align: right;
+}
+
+.input-box11 {
+  width: 200px !important;
+}
+
+.div-box {
+  margin-bottom: 10px;
+}
+
+.el-form-box {
+  height: 100px;
+}
+
+.el-form-box2 {
+  height: 350px;
+}
+
+.margin-box {
+  margin-bottom: 10px
+}
+
+.margin-box2 {
+  margin-bottom: 20px
+}
+
+.margin-box-float {
+  margin-bottom: 10px;
+  float: right
+}
+
+.margin-box3 {
+  margin-right: 85px !important;
+}
+
+.p-box {
+  font-size: 17px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.el-form-item {
+  margin-bottom: 18px !important;
+}
+
+.query {
+  width: 100%;
+  margin-bottom: 10px;
+  text-align: center;
+}

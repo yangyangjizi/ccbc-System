@@ -1,0 +1,30 @@
+.query {
+    float: right;
+  }
+  .block {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }
+  .el-table td,
+  .el-table th.is-leaf,
+  .el-table--border,
+  .el-table--group {
+    border-color: #dbdbdb;
+  }
+  .el-table--border::after,
+  .el-table--group::after,
+  .el-table::before {
+    background-color: #dbdbdb;
+  }
+  .submit_color {
+    background-color: #858ffd;
+    border-color: #858ffd;
+  }
+  .submit_color:hover {
+    background-color: #a6acef;
+    border-color: #a6acef;
+  }
+  .statime {
+    margin-right: 20px;
+  }
